@@ -9,6 +9,6 @@ public class KonteApplication {
 		SpringApplication.run(KonteApplication.class, args);
 	}
 
-	public static String workflowTest(){ return "You shall not pass"; }
+	public static String workflowTest(){ return "You shall not fail"; }
 
 }
