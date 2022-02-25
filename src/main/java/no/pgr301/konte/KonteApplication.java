@@ -8,4 +8,7 @@ public class KonteApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KonteApplication.class, args);
 	}
+
+	public static String workflowTest(){ return "You shall not pass"; }
+
 }
