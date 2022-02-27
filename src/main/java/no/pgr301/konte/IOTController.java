@@ -1,5 +1,6 @@
 package no.pgr301.konte;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -24,10 +25,11 @@ public class IOTController {
 
     // Todo implement an endpoint that returns all measurements
 
-    @GetMapping(path = "/weather", consumes = "application/json", produces = MediaType.TEXT_PLAIN_VALUE)
+    @GetMapping(path = "/weather", consumes = "application/json", produces = "application/json")
     public ResponseEntity<Measurement> get(@RequestBody Measurement measurement) {
+
         measurementList.add(measurement);
-        return ResponseEntity.of(Optional.of(measurement));
+        return new ResponseEntity<>(measurement, HttpStatus.OK);
     }
 
 }

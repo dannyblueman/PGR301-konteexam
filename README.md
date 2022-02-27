@@ -49,6 +49,34 @@ Dette kan være en god arbeidsflyt hvis man jobber i team og med flere brancher:
 
 * A. Fullført.
 
-* B. Først må sensor skrive docker build . --tag konte2022, så kan docker run konte2022:latest tastes inn
+* B. Først må sensor skrive 
+    ```
+    docker build . --tag konte2022
+    ```
+    så kan
+    ```
+    docker run konte2022:latest
+    ```
+     tastes inn
+* C. Da må sensor skrive 
+    ```
+    docker run -p 9999:5050 konte2022
+    ```
+  
+* D. Da må sensor skrive
+    ```
+  docker run -p 9999:5050 <brukernavn>/<tag_remote>
+    ```
 
-* C. Da må sensor skrive docker run -p 9999:5050 konte2022
+* E. Først må sensor logge in
+    ```
+  docker login
+    ```
+    Så skriver sensor inn tag-en til prosjektet og velger remote tag for Hub-en
+    ```
+  docker tag <tag> <brukernavn>/<tag_remote>
+    ```
+    Så kan sensor pushe imaget til sin Hub-konto
+    ```
+  docker push <brukernavn>/<tag_remote>
+    ```
