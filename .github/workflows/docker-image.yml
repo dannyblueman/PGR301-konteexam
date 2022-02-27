@@ -16,5 +16,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: |
-        docker build . -t kontetest
-        docker push dannyblueman/kontetest
+        docker build . -t konte2022
+        docker push dannyblueman/konte2022

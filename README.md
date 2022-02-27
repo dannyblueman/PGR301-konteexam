@@ -80,3 +80,10 @@ Dette kan være en god arbeidsflyt hvis man jobber i team og med flere brancher:
     ```
   docker push <brukernavn>/<tag_remote>
     ```
+  
+## Oppgave 5
+
+* A. WIP
+
+* B. Etter sensor har laget en fork av dette repoet, kan han gå inn i docker-image.yml-fila
+og endre mitt brukernavn, dannyblueman, til sitt eget. Da skal pipeline fungere hos han.
