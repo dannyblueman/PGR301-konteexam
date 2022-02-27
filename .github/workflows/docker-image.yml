@@ -17,4 +17,5 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build . -t konte2022
+        docker tag konte2022 dannyblueman/konte2022
         docker push dannyblueman/konte2022
