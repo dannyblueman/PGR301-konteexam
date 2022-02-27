@@ -44,3 +44,11 @@ Dette kan være en god arbeidsflyt hvis man jobber i team og med flere brancher:
 * Push branchen til GitHub
 * Lag Pull request på GitHub
 * Få en i teamet til å godkjenne Pull requesten (legg til som collaborator hvis personen ikke er det)
+
+## Oppgave 4
+
+* A. Fullført.
+
+* B. Først må sensor skrive docker build . --tag konte2022, så kan docker run konte2022:latest tastes inn
+
+* C. Da må sensor skrive docker run -p 9999:5050 konte2022
