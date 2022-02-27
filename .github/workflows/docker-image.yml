@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: |
-        docker login docker.io
+        docker login --username dannyblueman --password dockerpwtest
         docker build . -t konte2022
         docker tag konte2022 dannyblueman/konte2022
         docker push dannyblueman/konte2022
