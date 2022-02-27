@@ -4,7 +4,7 @@ Kandidatnr: 1001
 
 ## Oppgave 1
 
-* A. WIP
+* A. Har ikke fått Get-en min til å fungere 100%.
 
 * B. Fullført.
 
@@ -15,7 +15,10 @@ Kandidatnr: 1001
 ## Oppgave 3
 
 Den beste forbedringen teamet kan gjøre i henhold til arbeid med kildekode og versjonskontroll er å innføre branch
-protection på GitHub-repositoriet.
+protection på GitHub-repositoriet. Det er veldig kjekt å ha på branch-protection
+på repoet ettersom det gjør det umulig å committe kode som ikke kompilerer eller tester
+som ikke passer til main. Man blir tvunget til å få en annen på teamet til å se igjennom
+koden man skal merge, og det er alltid kjekt å få et annet sett med øyne til å gå igjennom koden din.
 
 ![settings](branch.png)
 
@@ -83,7 +86,12 @@ Dette kan være en god arbeidsflyt hvis man jobber i team og med flere brancher:
   
 ## Oppgave 5
 
-* A. WIP
+* A. Fullført
 
 * B. Etter sensor har laget en fork av dette repoet, kan han gå inn i docker-image.yml-fila
-og endre mitt brukernavn, dannyblueman, til sitt eget. Da skal pipeline fungere hos han.
+og endre alle tilfeller av mitt brukernavn, dannyblueman, til sitt eget og endre passordet til 
+sitt eget.(Burde egentlig bruke password-stdin) Da skal pipeline fungere hos han.
+
+## Oppgave 6
+
+Rakk ikke å gjøre denne oppgaven dessverre.
