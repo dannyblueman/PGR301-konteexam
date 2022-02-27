@@ -94,4 +94,4 @@ sitt eget.(Burde egentlig bruke password-stdin) Da skal pipeline fungere hos han
 
 ## Oppgave 6
 
-Rakk ikke å gjøre denne oppgaven dessverre.
+Rakk ikke å gjøre ferdig denne oppgaven dessverre.
